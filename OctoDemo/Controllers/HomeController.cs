@@ -15,7 +15,7 @@ namespace OctoDemo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "A demo application to show Octopus deploy in action.";
 
             return View();
         }
