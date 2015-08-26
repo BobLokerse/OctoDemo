@@ -16,6 +16,7 @@ namespace OctoDemo
 {
     public class EmailService : IIdentityMessageService
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Language", "CSE0003:Use expression-bodied members", Justification = "Method is a placehodler to be implemented")]
         public Task SendAsync(IdentityMessage message)
         {
             // Plug in your email service here to send an email.
@@ -25,6 +26,7 @@ namespace OctoDemo
 
     public class SmsService : IIdentityMessageService
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Language", "CSE0003:Use expression-bodied members", Justification = "Method is a placehodler to be implemented")]
         public Task SendAsync(IdentityMessage message)
         {
             // Plug in your SMS service here to send a text message.
@@ -96,11 +98,13 @@ namespace OctoDemo
         {
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Language", "CSE0003:Use expression-bodied members", Justification = "Method is a placehodler to be implemented")]
         public override Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
         {
             return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Language", "CSE0003:Use expression-bodied members", Justification = "Method is a placehodler to be implemented")]
         public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
         {
             return new ApplicationSignInManager(context.GetUserManager<ApplicationUserManager>(), context.Authentication);
