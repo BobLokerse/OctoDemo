@@ -7,14 +7,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoDemo", "OctoDemo\OctoDe
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Acc|Any CPU = Acc|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		Prod|Any CPU = Prod|Any CPU
 		Release|Any CPU = Release|Any CPU
+		systemtest|Any CPU = systemtest|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Acc|Any CPU.ActiveCfg = Release|Any CPU
+		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Acc|Any CPU.Build.0 = Release|Any CPU
 		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Prod|Any CPU.Build.0 = Debug|Any CPU
 		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.systemtest|Any CPU.ActiveCfg = Release|Any CPU
+		{79EDCBFF-9726-4316-B894-1F42F5F0778C}.systemtest|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
