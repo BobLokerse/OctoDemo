@@ -13,8 +13,11 @@ namespace OctoDemo.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "A demo application to show Octopus deploy in action.";
-                              
+
             ViewBag.ShowVariable = "OctoVar: " + Properties.Settings.Default.OctoVar;
+                
+            ViewBag.ShowGreeting = "Greeting setting: " + Properties.Settings.Default.Greeting;
+
             return View();
         }
 
