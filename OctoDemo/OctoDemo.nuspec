@@ -8,8 +8,11 @@
     <owners>Blokerse</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Test app</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes/>
     <copyright>Copyright 2015</copyright>
     <tags>Tag1 Tag2</tags>
   </metadata>
+  <files>
+    <file src="..\ReleaseNotes.txt" target=""Content" />
+  </files>
 </package>
