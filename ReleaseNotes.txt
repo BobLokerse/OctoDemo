@@ -1,0 +1,6 @@
+ReleaseNotes.txt
+toegevoegd aan de solution en in Appveyor als OCtopack parameter toegevoegd.
+Zodat Octopus het op de site kan weergeven.
+
+Bob Lokerse
+
