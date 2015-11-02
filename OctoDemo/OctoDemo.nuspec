@@ -13,6 +13,6 @@
     <tags>Tag1 Tag2</tags>
   </metadata>
   <files>
-    <file src="..\ReleaseNotes.txt" target=""Content" />
+    <file src="..\ReleaseNotes.txt" target="Content" />
   </files>
 </package>
